@@ -30,4 +30,24 @@ public class Employee {
                 '}';
     }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
 }
